@@ -19,3 +19,10 @@ nav a{
     background-color: black;
     color: purple;
 }
+#container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding: 5px;
+}
