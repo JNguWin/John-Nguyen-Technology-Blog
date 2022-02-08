@@ -26,3 +26,12 @@ nav a{
     grid-row-gap: 5px;
     padding: 5px;
 }
+#container-post{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.post{
+    color: rgb(59, 187, 219);
+    padding: 10px;
+    background-color: black;
+}
