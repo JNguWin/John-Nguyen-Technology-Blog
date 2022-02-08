@@ -21,24 +21,24 @@ nav a{
 }
 #container{
     display: grid;
-    grid-template-columns: 10% auto 10%;
-    background-color: purple;
-    padding: 10px;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    border: 1px solid black;
+    border-color: brown;
 
 }
-#post-container{
+/*#post-container{
     display: grid;
     grid-template-columns: auto;
     grid-column-start: 2;
     border-style: dashed;
     border-color: whitesmoke;
 
-}
+}*/
 .post{
-    text-align: centered;
-    grid-column-start: 2;
     color: rgb(59, 187, 219);
-    text-size-adjust: 22;
     background-color: black;
+    padding: 1em;
     
 }
