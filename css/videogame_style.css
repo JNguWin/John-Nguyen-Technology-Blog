@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: purple;
+    background-color: silver;
 }
 nav{
     display: grid;
@@ -14,10 +14,10 @@ nav a{
     text-align: centered;
     padding: 10px;
     border: 1px solid black;
-    border-color: purple;
+    border-color: silver;
     border-width: medium;
     background-color: black;
-    color: purple;
+    color: silver;
 }
 #container{
     display: grid;
